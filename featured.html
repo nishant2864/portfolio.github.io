@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+    rel="shortcut icon" 
+    href="images/home.png"
+    type="image/x-icon"
+    />
+    <title>Nishant Bhardwaj - Portfolio</title>
+
+    <!-- box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Design -->
+    <header class="header">
+        <a href="#" class="logo">NISHANT BHARDWAJ</a>
+
+        <div class="menu">
+            <a href="home.html" class="link">
+                <span class="link-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(249, 248, 248);">
+                        <path d="M12.71 2.29a1 1 0 0 0-1.42 0l-9 9a1 1 0 0 0 0 1.42A1 1 0 0 0 3 13h1v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7h1a1 1 0 0 0 1-1 1 1 0 0 0-.29-.71zM6 20v-9.59l6-6 6 6V20z"></path>
+                    </svg>
+                </span>
+                <span class="link-title">Home</span>
+            </a>
+            <a href="about.html" class="link">
+                <span class="link-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(249, 248, 248);">
+                        <path d="M12 2a5 5 0 1 0 5 5 5 5 0 0 0-5-5zm0 8a3 3 0 1 1 3-3 3 3 0 0 1-3 3zm9 11v-1a7 7 0 0 0-7-7h-4a7 7 0 0 0-7 7v1h2v-1a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v1z"></path>
+                    </svg>
+                </span>
+                <span class="link-title">About</span>
+            </a>
+            <a href="featured.html" class="link">
+                <span class="link-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(249, 248, 248);">
+                        <path d="m7.375 16.781 1.25-1.562L4.601 12l4.024-3.219-1.25-1.562-5 4a1 1 0 0 0 0 1.562l5 4zm9.25-9.562-1.25 1.562L19.399 12l-4.024 3.219 1.25 1.562 5-4a1 1 0 0 0 0-1.562l-5-4zm-1.649-4.003-4 18-1.953-.434 4-18z"></path>
+                    </svg>
+                </span>
+                <span class="link-title">Featured</span>
+            </a>
+            <a href="education.html" class="link">
+                <span class="link-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(249, 248, 248);">
+                        <path d="M2 7v1l11 4 9-4V7L11 4z"></path><path d="M4 11v4.267c0 1.621 4.001 3.893 9 3.734 4-.126 6.586-1.972 7-3.467.024-.089.037-.178.037-.268V11L13 14l-5-1.667v3.213l-1-.364V12l-3-1z"></path>
+                    </svg>
+                </span>
+                <span class="link-title">Education</span>
+            </a>
+            <a href="#" class="link">
+                <span class="link-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(249, 248, 248);">
+                        <path d="M13.337 9h-2.838v3h2.838a1.501 1.501 0 1 0 0-3z"></path><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm1.337 12h-2.838v3H8.501V7h4.837a3.498 3.498 0 0 1 3.499 3.499 3.499 3.499 0 0 1-3.5 3.501z"></path>
+                    </svg>
+                </span>
+                <span class="link-title">Projects</span>
+            </a>
+            <a href="#" class="link">
+                <span class="link-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(249, 248, 248);">
+                        <path d="M8.465 11.293c1.133-1.133 3.109-1.133 4.242 0l.707.707 1.414-1.414-.707-.707c-.943-.944-2.199-1.465-3.535-1.465s-2.592.521-3.535 1.465L4.929 12a5.008 5.008 0 0 0 0 7.071 4.983 4.983 0 0 0 3.535 1.462A4.982 4.982 0 0 0 12 19.071l.707-.707-1.414-1.414-.707.707a3.007 3.007 0 0 1-4.243 0 3.005 3.005 0 0 1 0-4.243l2.122-2.121z"></path>
+                        <path d="m12 4.929-.707.707 1.414 1.414.707-.707a3.007 3.007 0 0 1 4.243 0 3.005 3.005 0 0 1 0 4.243l-2.122 2.121c-1.133 1.133-3.109 1.133-4.242 0L10.586 12l-1.414 1.414.707.707c.943.944 2.199 1.465 3.535 1.465s2.592-.521 3.535-1.465L19.071 12a5.008 5.008 0 0 0 0-7.071 5.006 5.006 0 0 0-7.071 0z"></path>
+                    </svg>
+                </span>
+                <span class="link-title">Connect</span>
+            </a>
+        </div>
+    </header>
+
+    <!--featured section design -->
+    <section class="featured" id="featured">
+        <h2 class="heading"><span>Featured </span></h2>
+
+        <div class="featured-container">
+            <div class="featured-box">
+                <img src="images/SIH.png" alt="">
+                <div class="featured-layer">
+                    <h4>Smart India Hackathon 2023</h4>
+                    <a href="https://www.linkedin.com/posts/nishantbhardwaj28_smartindiahackathon-galgotiasuniversity-certificateofparticipation-activity-7136621237287436288-mb3-?utm_source=share&utm_medium=member_desktop"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="featured-box">
+                <img src="images/IBBI.jpg" alt="">
+                <div class="featured-layer">
+                    <h4>Insolvency & Bankruptcy Board of India</h4>
+                    <a href="https://www.linkedin.com/posts/nishantbhardwaj28_insolvencyandbankruptcy-mygovindia-bseindia-activity-7167762355676700672-NsM-?utm_source=share&utm_medium=member_desktop"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="featured-box">
+                <img src="images/TechDesk.jpg" alt="">
+                <div class="featured-layer">
+                    <h4>TechDesk 2024</h4>
+                    <a href="https://www.linkedin.com/posts/nishantbhardwaj28_techachievement-algorithmchallenge-galgotiaspride-activity-7190399538333917184-css0?utm_source=share&utm_medium=member_desktop"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="featured-box">
+                <img src="images/Google_Play.jpg" alt="">
+                <div class="featured-layer">
+                    <h4>Google Play Academy</h4>
+                    <a href="https://www.linkedin.com/posts/nishantbhardwaj28_google-play-academy-certificate-activity-7204118456688869376-gKqu?utm_source=share&utm_medium=member_desktop"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="featured-box">
+                <img src="images/IIC_1.jpg" alt="">
+                <div class="featured-layer">
+                    <h4>Angel Investment/VC Funding</h4>
+                    <a href="https://www.linkedin.com/posts/nishantbhardwaj28_innovation-entrepreneurship-angelinvestment-activity-7206696722318667776-e21E?utm_source=share&utm_medium=member_desktop"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="featured-box">
+                <img src="images/IIC_2.png" alt="">
+                <div class="featured-layer">
+                    <h4>Lean Startup & Minimum Viable Product/Business</h4>
+                    <a href="https://www.linkedin.com/posts/nishantbhardwaj28_leanstartup-minimumviableproduct-businessinnovation-activity-7210339716498432000-agrf?utm_source=share&utm_medium=member_desktop"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+ 
+ 
+    <!-- custom js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
